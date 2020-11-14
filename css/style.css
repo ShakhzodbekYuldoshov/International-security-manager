@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn_blue {
+    background-color: #174EC8;
+    border-radius: 4px;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100vw;
+}
+
+.hero_content_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 99.5%;
+    background: transparent linear-gradient(90deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_content {
+    width: 665px;
+}
+
+.hero_content h6 {
+    font-weight: medium;
+    font-size: 14px;
+    letter-spacing: 0.67px;
+    text-transform: uppercase;
+    color: #FFFFFF66;
+}
+
+.hero_content h1 {
+    margin-top: 4px;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2.3px;
+}
+
+.hero_content p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 1.77;
+    margin: 19px 0 79px 0;
+}
+
+.hero_content .btn_blue {
+    padding: 20px 32px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 1100px) {
+    .hero_content_box {
+        height: 99%;
+    }
+    .hero_content {
+        margin: 1.5vw;
+    }
+    .hero_content h6 {
+        font-size: 1vw;
+    }
+
+    .hero_content h1 {
+        margin-top: 0.1vw;
+        font-size: 4vw;
+        letter-spacing: 1.3px;
+    }
+
+    .hero_content p {
+        font-size: 1.3vw;
+        margin: 1vw 0 5vw 0;
+    }
+
+    .hero_content .btn_blue {
+        padding: 2vw 3vw;
+        font-size: 1.3vw;
+    }
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 680px) {
+    .hero_content_box {
+        height: 98.5%;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .hero_content p{
+        font-size: 1.4vw;
+        margin: 0.8vw 0 3.5vw 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .hero_content_box {
+        height: 98%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero_content_box {
+        height: 97.5%;
+    }
+}
